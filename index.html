@@ -37,6 +37,7 @@ limitations under the License.
         });
        
       window.addEventListener('beforeinstallprompt', function(e) {
+      	alert('before install listener');
         outputElement.textContent = 'beforeinstallprompt Event fired';
       });
     });
